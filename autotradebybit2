@@ -4,7 +4,6 @@ import time
 import datetime
 import pandas as pd
 import numpy as np
-import telegram
 from pybit.usdt_perpetual import HTTP
 import urllib3
 import urllib3, socket
@@ -20,9 +19,6 @@ import requests
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-bot = telegram.Bot(token='5382077543:AAGGW3Tkd91p0UqUFP8JRbwYA-d4k5q5ybQ')
-chat_id = 5319359286
-
 api_key = ""
 secret = ""
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
